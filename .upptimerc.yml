@@ -1,31 +1,46 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Sikara status page (Upptime: GitHub Actions + Issues + Pages, independent from the VPS).
+owner: sikara-it
+repo: status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: SIGRH
+    url: https://sigrh.sikara-it.com/signin
+  - name: Alaikoo
+    url: https://alaikoo.sikara-it.com/login
+  - name: Ici et ailleurs
+    url: https://ici-et-ailleurs.sikara-it.com/
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.sikara-it.com
+  name: Sikara
+  introTitle: "**État des services Sikara**"
+  introMessage: Disponibilité en temps réel de nos applications, vérifiée toutes les 5 minutes depuis l'extérieur de nos serveurs.
   navbar:
-    - title: Status
+    - title: Statut
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+i18n:
+  activeIncidents: Incidents en cours
+  allSystemsOperational: Tous les services fonctionnent normalement
+  incidentReport: "Incident n°$NUMBER →"
+  activeIncidentSummary: "Ouvert à $DATE avec $POSTS publications"
+  incidentTitle: "Incident $NUMBER : détails"
+  incidentDetails: Détails de l'incident
+  incidentFixed: Résolu
+  incidentOngoing: En cours
+  incidentOpenedAt: Ouvert le
+  incidentClosedAt: Fermé le
+  incidentBack: "← Retour à tous les incidents"
+  pastIncidents: Incidents passés
+  pastIncidentsResolved: "Résolu en $MINUTES minutes avec $POSTS publications"
+  liveStatus: Statut actuel
+  overallUptime: "Disponibilité globale : $UPTIME"
+  averageResponseTime: "Temps de réponse moyen : $TIMEms"
+  up: En ligne
+  down: Hors ligne
+  degraded: Dégradé
+  responseTime: Temps de réponse
+  ms: ms
+  loading: Chargement
+  navGitHub: GitHub
+  footer: Page de statut Sikara, propulsée par Upptime.
