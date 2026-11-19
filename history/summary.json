@@ -52,5 +52,23 @@
     "timeMonth": 147,
     "timeYear": 147,
     "dailyMinutesDown": {}
+  },
+  {
+    "name": "Site Sikara",
+    "url": "https://sikara-it.com/",
+    "icon": "https://icons.duckduckgo.com/ip3/sikara-it.com.ico",
+    "slug": "site-sikara",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 451,
+    "timeDay": 451,
+    "timeWeek": 451,
+    "timeMonth": 451,
+    "timeYear": 451,
+    "dailyMinutesDown": {}
   }
 ]
