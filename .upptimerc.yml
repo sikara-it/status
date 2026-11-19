@@ -9,6 +9,8 @@ sites:
     url: https://alaikoo.sikara-it.com/login
   - name: Ici et ailleurs
     url: https://ici-et-ailleurs.sikara-it.com/
+  - name: Site Sikara
+    url: https://sikara-it.com/
 
 status-website:
   cname: status.sikara-it.com
