@@ -15,6 +15,10 @@ sites:
 status-website:
   cname: status.sikara-it.com
   name: Sikara
+  logoUrl: https://status.sikara-it.com/logo.svg
+  favicon: https://status.sikara-it.com/favicon.ico
+  faviconSvg: https://status.sikara-it.com/logo.svg
+  appleTouchIcon: https://status.sikara-it.com/apple-touch-icon.png
   introTitle: "**État des services Sikara**"
   introMessage: Disponibilité en temps réel de nos applications, vérifiée toutes les 5 minutes depuis l'extérieur de nos serveurs.
   navbar:
